@@ -1,4 +1,4 @@
-from structures import MinHeap
+from structures.heap import MinHeap
 
 def top_k_max(array, k):
     heap = MinHeap(k)
